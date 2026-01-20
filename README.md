@@ -4,7 +4,7 @@ Site React pour le club étudiant avec Docker + Nginx
 
 ---
 
-## 📁 Structure
+##  Structure
 
 - `src/pages` : toutes les pages React
 - `src/App.jsx` : routes
@@ -24,7 +24,7 @@ docker build -t club-etudiant .
 
 # 3. Lancer le container Docker :
 docker run -p 3000:80 club-etudiant
-
+``` 
 # 4. Accéder au site dans votre navigateur :
 http://localhost:3000
 ```
@@ -36,7 +36,6 @@ Assurez-vous que Node.js >= 20 et npm sont installés.
 
 ``` bash
 # Cloner le dépôt :
-
 git clone https://github.com/TON_UTILISATEUR/club-etudiant.git
 cd club-etudiant 
 
@@ -46,7 +45,6 @@ npm install
 #Lancer le serveur de développement :
 npm run dev
 ```
-
 Accéder au site dans votre navigateur :
 http://localhost:5173
 
