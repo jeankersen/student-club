@@ -12,15 +12,16 @@ Site React pour le club étudiant avec Docker + Nginx
 
 ---
 
-## 🚀 Lancer le projet
+##  Lancer le projet
 
-### Option 1 : Avec Docker
+### Avec Docker
 
 1. Assurez-vous que **Docker est installé** sur votre machine.
 2. Build de l’image Docker :
 
-```bash
+```
  docker build -t club-etudiant . ```
+
 ```bash
 # 3. Lancer le container Docker :
 docker run -p 3000:80 club-etudiant ```
