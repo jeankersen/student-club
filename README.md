@@ -25,27 +25,27 @@ docker build -t club-etudiant .
 # 3. Lancer le container Docker :
 docker run -p 3000:80 club-etudiant
 ``` 
-# 4. Accéder au site dans votre navigateur :
+4. Accéder au site dans votre navigateur :
 http://localhost:3000
 ```
 
 
 ### Sans Docker
 
-Assurez-vous que Node.js >= 20 et npm sont installés.
+1. Assurez-vous que Node.js >= 20 et npm sont installés.
 
 ``` bash
-# Cloner le dépôt :
+# 2. Cloner le dépôt :
 git clone https://github.com/TON_UTILISATEUR/club-etudiant.git
 cd club-etudiant 
 
-# Installer les dépendances :
+# 3. Installer les dépendances :
 npm install 
 
-#Lancer le serveur de développement :
+# 4. Lancer le serveur de développement :
 npm run dev
 ```
-Accéder au site dans votre navigateur :
+5. Accéder au site dans votre navigateur :
 http://localhost:5173
 
 ---
