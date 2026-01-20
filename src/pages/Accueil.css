@@ -1,0 +1,12 @@
+/* src/pages/Accueil.css */
+.page-accueil {
+  text-align: center;
+  margin-top: 50px;
+  color: pink;
+
+}
+
+.page-accueil h1 {
+  font-size: 1rem;
+ 
+}
