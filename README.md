@@ -21,7 +21,7 @@ Site React pour le club étudiant avec Docker + Nginx
 
 ``` bash
 docker build -t club-etudiant .
-exit
+```
 
 
 # 3. Lancer le container Docker :
