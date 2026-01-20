@@ -41,7 +41,6 @@ git clone https://github.com/TON_UTILISATEUR/club-etudiant.git
 cd club-etudiant 
 
 # Installer les dépendances :
-
 npm install 
 
 #Lancer le serveur de développement :
