@@ -1,0 +1,83 @@
+/* Navbar.css */
+
+/* === Conteneur principal === */
+nav {
+  width: 100%;
+  background-color: #111; /* fond sombre */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  box-sizing: border-box;
+  position: fixed; /* reste en haut */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* === Logo === */
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+/* === Menu desktop === */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+  color: #646cff;
+  transform: scale(1.05); /* petit effet zoom */
+}
+
+/* === Hamburger menu mobile === */
+nav .hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+nav .hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+/* === Menu mobile caché par défaut === */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: #111;
+    padding: 1rem 0;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav .hamburger {
+    display: flex;
+  }
+}
