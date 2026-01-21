@@ -1,0 +1,25 @@
+/* Slider wrapper : largeur 100%, overflow hidden */
+.slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* Track qui défile */
+.slider-track {
+  display: flex;
+  transition: transform 1s ease-in-out; /* smooth transition */
+}
+
+/* Chaque photo prend 1/3 de l'espace visible */
+.slider-item {
+  flex: 0 0 33.3333%;
+}
+
+/* Image pleine largeur, collée */
+.slider-item img {
+  width: 100%;
+  height: 100%; /* plus grand que le précédent */
+  object-fit: cover;
+  display: block;
+}
